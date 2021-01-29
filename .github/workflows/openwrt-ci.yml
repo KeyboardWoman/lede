@@ -51,7 +51,7 @@ jobs:
           ./scripts/feeds install -a
 
       - name: Generate configuration file
-        run: make defconfig
+        run: echo build
 
       - name: Make download
         run: |
